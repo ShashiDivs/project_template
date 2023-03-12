@@ -1,0 +1,17 @@
+training_pipline_config:
+  pipline: US_VISA
+  artifact_dir: artifact
+
+
+data_ingestion_config:
+  dataset_downloaded_url: "url"
+  raw_data_dir: raw_data
+  ingested_dir : ingested_data
+  ingested_train_dir: train
+  ingested_test_dir: test
+
+
+data_validation:
+  schema_dir: config
+  schema_file_dir : schema.yaml
+
